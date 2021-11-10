@@ -1,6 +1,8 @@
 package induk.jsp.ab.myjbblog.model;
 
 public class Blog {
+    public String getId() {return id;}
+
     public String getName() {
         return name;
     }
@@ -17,10 +19,15 @@ public class Blog {
         return message;
     }
 
+    private String id;
     private String name;
     private String email;
     private String phone;
     private String message;
+
+    public void setId(String id) {
+        this.id = id;
+    }
 
     public void setName(String name) {
         this.name = name;

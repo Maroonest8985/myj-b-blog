@@ -8,6 +8,6 @@
 <h1><%= "Hello World!" %>
 </h1>
 <br/>
-<a href="./blogs/list.do?name=myj&phone=26544810">안녕 서블릿</a>
+<a href="./blogs">안녕 서블릿</a>
 </body>
 </html>

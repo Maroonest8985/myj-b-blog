@@ -80,7 +80,7 @@
                                     <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
                                 </div>
                                 <div class="form-floating">
-                                    <textarea class="form-control" id="message" value="${blog.message}" name="message" placeholder="Enter your message here..." style="height: 12rem" data-sb-validations="required"></textarea>
+                                    <input class="form-control" id="message" value="${blog.message}" name="message" placeholder="Enter your message here..." style="height: 12rem" data-sb-validations="required"></input>
                                     <label for="message">Message</label>
                                     <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
                                 </div>
